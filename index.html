@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <!-- etapa 1, cerinta 2 -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Olaru Bianca Elena">
+    <meta name="keywords"
+        content="creativitate, pictură, produse noi, recomandări, magazin de creație, sculptură, textile, accesorii, craft, DIY, handmade, România">
+    <meta name="description"
+        content="Creative Store - Magazin online de materiale de creație. Descoperă resurse de pictură, desen, sculptură, precum și textile, ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Creative Store | Materiale de creație</title>
+
+    <!-- etapa 1, cerinta 4 -->
+    <link rel="icon" type="image/png" href="/resurse/css/ico/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/resurse/css/ico/favicon.svg" />
+    <link rel="shortcut icon" href="/resurse/css/ico/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/resurse/css/ico/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Creative Store" />
+    <link rel="manifest" href="/resurse/css/ico/site.webmanifest" />
+
+    <link rel="stylesheet" href="./resurse/css/general.css" type="text/css" />
+    <link rel="stylesheet" href="./resurse/css/nav.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="oswald">Creative Store</h1>
+
+        <nav>
+            <ul class="meniu">
+                <li>
+                    <a href="index.html">Home</a>
+                    <ul>
+                        <li><a href="#welcome">Prezentare</a></li>
+                        <li><a href="#new">Noutăți</a></li>
+                        <li><a href="#section-products">Produse Populare</a></li>
+                        <li><a href="#recomandations">Produse Recomandate</a></li>
+                        <li><a href="#didyouknow">Curiozități</a></li>
+                        <li><a href="#tutorials">Tutoriale</a></li>
+                    </ul>
+                </li>
+                <li><a href="produse.html">Produse</a></li>
+                <li><a href="autentificare.html">Autentificare</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cos.html">Coșul meu</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article>
+        <h2> Magazin de creație </h2>
+        <p> Creative Store este un magazin online, conceput ca o resursă completă pentru <b>comunitatea
+                pasionaților de <abbr title="Do It Yourself">DIY</abbr> </b>(Do It Yourself). Vă oferim acces la o
+            <b>gamă variată</b> de materii prime
+            (vopsele, lut, accesorii textile) necesare procesului de creație.
+        </p>
+    </article>
+
+    <main>
+        <!-- trebuie sa punem sectiunile in div -->
+        <div id="page-grid">
+            <section id="welcome">
+                <hgroup>
+                    <h2>Bine ați venit!</h2>
+                    <p class="subtitle">Suntem destinația preferată a artiștilor din România, oferind materiale de cea
+                        mai înaltă calitate pentru proiectele tale <abbr title="Do It Yourself">DIY</abbr>.</p>
+
+                    <section id="new">
+                        <h3> Noutati </h3>
+                        <p> Luna aceasta ne concentrăm pe tehnici de acuarelă și texturi noi. </p>
+
+                        <dl>
+                            <dt><b>Kit Pictură</b></dt>
+                            <dd>Include pânză bumbac 100%, 12 culori acrilice și pensule.</dd>
+
+                            <dt><b><dfn id="def-lut">Lut Polimeric</dfn></b></dt>
+                            <dd>
+                                Acesta este un <ins>material de modelaj sintetic</ins>,
+                                bazat pe policlorură de vinil (PVC), care rămâne maleabil până când este
+                                întărit prin coacere într-un cuptor casnic la temperaturi scăzute.
+                            </dd>
+                        </dl>
+
+                    </section>
+                </hgroup>
+                <blockquote>
+                    <i><q>Creativitatea necesită curaj.</q></i> - Henri Matisse, în eseul său
+                    <cite>Privind pictura</cite>
+                </blockquote>
+            </section>
+            <section id="section-products">
+                <hgroup>
+                    <h2>Produse Populare</h2>
+                    <p>Vă prezentăm câteva dintre cele mai căutate produse:</p>
+                    <figure>
+                        <a href="./resurse/css/images/set-acuarele-mare.jpg" title="Click pentru a mări imaginea">
+                            <picture>
+                                <source media="(min-width: 1024px)" srcset="./resurse/css/images/set-acuarele-mare.jpg">
+                                <source media="(min-width: 600px)" srcset="./resurse/css/images/set-acuarele-mediu.jpg">
+
+                                <img src="./resurse/css/images/set-acuarele-mic.jpg" alt="Set de acuarele"
+                                    title="Set acuarele - Vizualizare extinsă"
+                                    style="width:auto; max-width:100%; cursor: zoom-in;">
+                            </picture>
+                        </a>
+
+                        <figcaption>Masă de lucru pregătită pentru un nou proiect de pictură acrilică.</figcaption>
+                    </figure>
+                </hgroup>
+            </section>
+            <section id="recomandations">
+                <hgroup>
+                    <h2>Recomandarile noastre</h2>
+                    <p>Urmeaza sa vedeti aici produsele recomandate</p>
+                </hgroup>
+                <figure>
+                    <img src="./resurse/css/images/pensule-mare.png" alt="Set de pensule profesionale pentru pictură"
+                        style="max-width:100%; height:auto;">
+
+                    <figcaption>
+                        <strong>Set de pensule profesionale din păr sintetic premium.</strong>
+                        <br>
+                        <a href="./resurse/css/images/pensule-mare.png" download="pensule_creative.jpg">
+                            Descarcă o imagine detaliată a pensulelor
+                        </a>
+                    </figcaption>
+                </figure>
+            </section>
+            <section id="tutorials">
+                <h2>Tutoriale Video</h2>
+                <p>Dacă aveți nevoie de îndrumare pentru realizarea diferitelor obiecte <abbr
+                        title="Do It Yourself">DIY</abbr>,
+                    vă recomandăm următoarele <b>tutoriale simple</b> pe care sperăm să le încercați,
+                    să vedeți cât e de ușor să fiți creativi!
+                </p>
+                <div class="container-iframe">
+                    <div class="tabs-iframe">
+                        <a href="https://www.youtube.com/embed/Rt1F7mIki9I" target="ifr-video">Tutorial brățară cu
+                            mărgele</a>
+                        <a href="https://www.youtube.com/embed/bc_ITZilULg" target="ifr-video">Tutorial fluture
+                            origami</a>
+                        <a href="https://www.youtube.com/embed/Vj8xFOBJob0" target="ifr-video">Tutorial pictură peisaj
+                            acrilic</a>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rt1F7mIki9I" name="ifr-video"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+
+
+                </div>
+                <p>
+                    Pentru mai multe idei creative, puteți vizita și comunitatea
+                    <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer">Pinterest</a>,
+                    o sursă inepuizabilă de inspirație vizuală.
+                </p>
+            </section>
+            <section id="events">
+                <h2><strong>Evenimente Viitoare</strong></h2>
+                <p>Te așteptăm la atelierele și promoțiile noastre speciale!</p>
+
+                <ol>
+                    <li>
+                        <time datetime="2026-03-15T10:00">15 martie, ora 10:00</time> -
+                        <b>Atelier de Pictură</b>:
+                        Învață tehnicile de bază ale acuarelei alături de artiști locali.
+                    </li>
+
+                    <li>
+                        <time datetime="2026-04-01T09:00">2 aprilie, ora 09:00</time> -
+                        <b>Joia Creativă</b>:
+                        La comenzi de peste 50 de lei vei primi o paletă cadou!
+                    </li>
+                </ol>
+            </section>
+            <section id="fq-asked-questions">
+                <h2>Întrebări Frecvente</h2>
+
+                <details>
+                    <summary>Care este timpul de livrare?</summary>
+                    <p>Comenzile sunt procesate în <s>48 de ore</s> <ins>24 de ore</ins> și ajung la destinație în 1-2
+                        zile lucrătoare prin curier
+                        rapid.</p>
+                </details>
+
+                <details>
+                    <summary>Pot returna produsele dacă nu sunt mulțumit?</summary>
+                    <p>Desigur! Acceptăm retururi în termen de 14 zile, cu condiția ca materialele (vopsele, tuburi,
+                        pânze) să nu fi fost desigilate sau folosite.</p>
+                </details>
+
+                <details>
+                    <summary>Oferiți reduceri pentru școli sau ateliere?</summary>
+                    <p>Da, pentru comenzi en-gros sau parteneriate educaționale, vă rugăm să ne contactați prin
+                        formularul de la pagina <b>Contact</b>.</p>
+                </details>
+            </section>
+        </div>
+        <aside id="didyouknow">
+            <h2><em>Știai că...?</em></h2>
+            <details>
+                <summary>Află un secret despre culori!</summary>
+                <p>
+                    În perioada Renașterii, pigmentul albastru ultramarin era mai scump decât aurul, deoarece era
+                    obținut
+                    prin zdrobirea pietrei semiprețioase Lapis Lazuli aduse din Afganistan.
+                </p>
+                <p>
+                    Pentru a aprofunda istoria pigmentului albastru și procesul de extracție din Lapis Lazuli,
+                    puteți consulta secțiunea dedicată de pe Wikipedia: <br>
+                    <a href="https://en.wikipedia.org/wiki/Ultramarine#History_and_derivation" target="_blank"
+                        rel="noopener noreferrer">
+                        https://en.wikipedia.org/<wbr>wiki/<wbr>Ultramarine#<wbr>History_<wbr>and_<wbr>derivation
+                    </a>
+                </p>
+            </details>
+
+            <details>
+                <summary>Originea cuvântului <i>creativitate</i></summary>
+                <p>Termenul provine din latinescul <i>creare</i>, dar a început să fie folosit în sensul modern abia în
+                    secolul al XVII-lea.</p>
+            </details>
+
+        </aside>
+
+    </main>
+
+
+
+    <footer>
+        <h2>Contact</h2>
+        <table border="1" style="border-collapse: collapse; width: 90%; margin: 25px auto; text-align: left;">
+            <caption>Programul de asistență, comenzi și predare curier - Creative Store</caption>
+
+            <thead>
+                <tr>
+                    <th>Zilele Săptămânii</th>
+                    <th>Suport Telefon & WhatsApp</th>
+                    <th>Procesare Comenzi Online</th>
+                    <th>Status Livrări (Predare Curier)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Luni</td>
+                    <td>08:30 - 19:00</td>
+                    <td>09:00 - 17:00</td>
+                    <td style="color: green; font-weight: 500;">Preluare zilnică (Ora 16:00)</td>
+                </tr>
+                <tr>
+                    <td>Marți</td>
+                    <td>08:30 - 19:00</td>
+                    <td>09:00 - 17:00</td>
+                    <td style="color: green; font-weight: 500;">Preluare zilnică (Ora 16:00)</td>
+                </tr>
+                <tr>
+                    <td>Miercuri</td>
+                    <td>08:30 - 19:00</td>
+                    <td>09:00 - 17:00</td>
+                    <td style="color: green; font-weight: 500;">Preluare zilnică (Ora 16:00)</td>
+                </tr>
+                <tr>
+                    <td>Joi</td>
+                    <td>08:30 - 19:00</td>
+                    <td>09:00 - 17:00</td>
+                    <td style="color: green; font-weight: 500;">Preluare zilnică (Ora 16:00)</td>
+                </tr>
+                <tr>
+                    <td>Vineri</td>
+                    <td>08:30 - 17:00</td>
+                    <td>09:00 - 15:30</td>
+                    <td style="color: #c67a00; font-weight: 500;">Preluare timpurie (Ora 14:00)</td>
+                </tr>
+                <tr>
+                    <td>Sâmbătă</td>
+                    <td>10:00 - 14:00</td>
+                    <td>Automat (Fără livrare)</td>
+                    <td style="color: gray; font-style: italic;">Nu se predau colete</td>
+                </tr>
+                <tr>
+                    <td>Duminică</td>
+                    <td colspan="3" style="color: gray; text-align: center; font-style: italic;">
+                        Disponibil doar formularul de contact (Procesare Luni)
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" style="font-size: 0.9rem;">
+                        * <strong>Notă:</strong> În zilele de Sărbători Legale, curierii nu ridică colete, iar
+                        expedierile se vor relua în următoarea zi lucrătoare.
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div style="width: 90%; margin: 20px auto;">
+
+            <h3>Statistici & Performanță Creative Store</h3>
+
+            <div style="margin-bottom: 15px;">
+                <label for="recenzii-cinci-stele"><strong>Recenzii de 5 stele obținute săptămâna
+                        aceasta:</strong></label><br>
+                <meter id="recenzii-cinci-stele" min="0" max="100" low="30" high="75" optimum="90" value="12">
+                    12 recenzii
+                </meter>
+                <span style="color: #b30000; font-weight: bold;"> 12 recenzii (Valoare mică! Clienții trebuie încurajați
+                    să lase feedback)</span>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="status-comenzi"><strong>Volum Comenzi Online Preluate (Astăzi):</strong></label><br>
+                <meter id="status-comenzi" min="0" max="200" low="40" high="150" optimum="180" value="165">
+                    165 comenzi
+                </meter>
+                <span style="color: green; font-weight: bold;"> 165 comenzi preluate (Valoare mare! Activitate intensă
+                    în depozit)</span>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="tinta-saptamanala"><strong>Țintă Comenzi Săptămânală (Realizat):</strong></label><br>
+                <meter id="tinta-saptamanala" min="0" max="1000" low="300" high="700" optimum="900" value="780">
+                    780 din 1000
+                </meter>
+                <span style="color: green; font-weight: bold;"> 780 realizate dintr-o țintă de 1000 (Progres
+                    excelent)</span>
+            </div>
+            
+        </div>
+
+        <address>
+            Telefon: <a href="tel:+40733532047">+40 733 532 047</a><br>
+
+            Adresă: <a href="https://maps.app.goo.gl/U5yQ9r4t59pHXwcb7" target="_blank">
+                Bd. Iuliu Maniu, nr. 15G<br>
+                Sector 6, București
+            </a><br>
+            <i class="fa-regular fa-envelope"></i>
+            E-mail: <a href="mailto:contact@creativestore.ro">contact@creativestore.ro</a><br>
+
+            WhatsApp: <a href="https://wa.me/40733532047" target="_blank">Contactează-ne pe WhatsApp</a>
+        </address>
+        <p>
+            <small>
+                &copy; Creative Store. Toate drepturile rezervate.
+                <br>
+                Pagina a fost creată la data de:
+                <time datetime="2026-02-23">23 februarie 2026</time>
+            </small>
+        </p>
+        <div class="back-to-top">
+            <a href="#top">
+                Înapoi sus
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+/* --- resurse/css/reset.css --- */
+
+:root {
+    /* Variabile pentru valori care se repetă logic */
+    --reset-spacing: 0;
+    --reset-border: 0;
+    --reset-bg: transparent;
+    --reset-text-color: inherit;
+    --base-font-size: 18px; /* Unitate fixă pt html/body */
+    --base-line-height: 1.5;
+}
+
+/* 1. Resetarea spațierilor, dimensiunilor și culorilor */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, var, b, u, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary, time, mark, audio, video {
+    margin: var(--reset-spacing);
+    padding: var(--reset-spacing);
+    border: var(--reset-border);
+    font-size: 1rem; /* UNITATE RELATIVĂ pentru restul elementelor */
+    color: var(--reset-text-color);
+    background: var(--reset-bg);
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* 2. Dimensiuni în unități FIXE exclusiv pentru html și body */
+html {
+    font-size: var(--base-font-size);
+}
+
+body {
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+}
+
+/* Setări pentru elemente de bloc HTML5 */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* 3. Redefinirea stilurilor bold, italic și a listelor */
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+
+ol, ul {
+    list-style: none; /* Șterge bullet-urile și indicii */
+}
+
+blockquote, q { quotes: none; }
+
+/* 4. Redefinirea stilului tabelelor */
+table {
+    border-collapse: collapse;
+    border-spacing: var(--reset-spacing);
+}

@@ -2,27 +2,92 @@
 <html lang="ro">
 
 <head>
-    <!-- etapa 1, cerinta 2 -->
     <meta charset="UTF-8">
-    <meta name="author" content="Olaru Bianca Elena">
-    <meta name="keywords" content="culori acrilice, set acuarele, vopsea ulei, pânză, carton, creioane grafit, marker, cărbune, textil, bumbac, mărgele, tortițe cercei, inel breloc, clești">
-    <meta name="description" content="Creative Store - Magazin online de materiale de creație. Descoperă resurse de pictură, desen, sculptură, precum și textile, ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Store | Numele Paginii Aici</title>
 
-    <title>Creative Store | Materiale de creație</title>
-
-    <!-- etapa 1, cerinta 4 -->
-    <link rel="icon" type="image/png" href="/resurse/css/ico/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/resurse/css/ico/favicon.svg" />
-    <link rel="shortcut icon" href="/resurse/css/ico/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/resurse/css/ico/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="Creative Store" />
-    <link rel="manifest" href="/resurse/css/ico/site.webmanifest" />
-
+    <link rel="stylesheet" href="./resurse/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="./resurse/css/general.css" type="text/css" />
+    <link rel="stylesheet" href="./resurse/css/nav.css" type="text/css" />
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
+
+<body>
+    <header id="top">
+        <h1 class="oswald">Creative Store</h1>
+
+        <nav>
+            <ul class="meniu">
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i> <span class="text-acasa">Acasă</span>
+                    </a>
+                    <ul>
+                        <li><a href="index.html#welcome">Prezentare</a></li>
+                        <li><a href="index.html#new">Noutăți</a></li>
+                        <li><a href="index.html#section-products">Produse Populare</a></li>
+                        <li><a href="index.html#recomandations">Recomandări</a></li>
+                        <li><a href="index.html#didyouknow">Curiozități</a></li>
+                        <li><a href="index.html#tutorials">Tutoriale</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="produse.html">
+                        <i class="fa-solid fa-layer-group"></i> Categorii Artă
+                    </a>
+                    <ul>
+                        <li><a href="pictura.html">Materiale Pictură</a></li>
+                        <li><a href="sculptura.html">Lut & Modelaj</a></li>
+                        <li><a href="textile.html">Accesorii Textile</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="produse.html"><i class="fa-solid fa-palette"></i> Produse</a></li>
+                <li><a href="autentificare.html"><i class="fa-solid fa-user"></i> Autentificare</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                <li><a href="cos.html"><i class="fa-solid fa-cart-shopping"></i> Coșul meu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Produse</h2>
+        <p>Urmează...</p>
+    </main>
+    <footer>
+        <h2>Contact</h2>
+        <address>
+            Telefon: <a href="tel:+40733532047">+40 733 532 047</a><br>
+            Adresă: <a href="https://maps.app.goo.gl/U5yQ9r4t59pHXwcb7" target="_blank"> Bd. Iuliu Maniu, nr. 15G<br>
+                Sector 6, București </a><br>
+            <i class="fa-regular fa-envelope"></i> E-mail: <a
+                href="mailto:contact@creativestore.ro">contact@creativestore.ro</a><br>
+            WhatsApp: <a href="https://wa.me/40733532047" target="_blank">Contactează-ne pe WhatsApp</a>
+        </address>
+        <div style="margin-top: 15px; border-radius: 8px; overflow: hidden; max-width: 400px;">
+            <iframe width="100%" height="250" style="border:0;"
+                src="https://maps.google.com/maps?q=Bd.+Iuliu+Maniu,+nr.+15G,+Bucuresti&t=&z=15&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+        </div>
+        <p>
+            <small>
+                © Creative Store. Toate drepturile rezervate.
+                <br>
+                Pagina a fost creată la data de:
+                <time datetime="2026-02-23">23 februarie 2026</time>
+            </small>
+        </p>
+    </footer>
+
+    <a href="#top" id="link-top">
+        <div class="paranteze-container">
+            <div class="triunghi"></div>
+        </div>
+        <span class="tooltip-top">Mergi în susul paginii</span>
+    </a>
+</body>
+
+</html>
